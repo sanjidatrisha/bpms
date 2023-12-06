@@ -3,11 +3,11 @@
 <h1>Category</h1>
 
 
-
+<a href= "{{route('category.create')}}"type="button" class="btn btn-success">Success</a>
 <table class="table table-striped ">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">ID</th>
       <th scope="col">Category</th>
       <th scope="col">Status</th>
       <th scope="col">Action</th>
@@ -29,7 +29,7 @@
   </tbody>
 </table>
 {{ $categories->links() }}
-<a href= "{{route('category.create')}}"type="button" class="btn btn-success">Success</a>
+
 
 
 

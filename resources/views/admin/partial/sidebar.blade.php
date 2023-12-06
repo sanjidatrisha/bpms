@@ -1,28 +1,28 @@
 <div class="sb-sidenav-menu">
                         <div class="nav">
-                        <a class="nav-link" href="{{url('/dashboard/list')}}">
+                        <a class="nav-link" href="{{route('dashboard.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                             Dashboard
                             </a>
                             
-                            <a class="nav-link" href="{{url('/beautician/list')}}">
+                            <a class="nav-link" href="{{route('beautician.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Beautician
                             </a>
-                            <a class="nav-link" href="{{url('/service/list')}}">
+                            <a class="nav-link" href="{{route('service.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Service
                             </a>
-                            <a class="nav-link" href="{{url('/category/list')}}">
+                            <a class="nav-link" href="{{route('category.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Category
                             </a>
-                            <a class="nav-link" href="{{url('/customer/list')}}">
+                            <a class="nav-link" href="{{route('list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Customer
                             </a>
                             
-                            <a class="nav-link" href="index.html">
+                            <a class="nav-link" href="{{route('book.list')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Booking
                             </a>

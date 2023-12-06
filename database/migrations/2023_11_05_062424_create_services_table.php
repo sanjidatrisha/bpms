@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('service_name',50)->unique();
             $table->text('service_description',10);
             $table->date('creation_date');
-            
             $table->double('price');
+            $table->string('image')->nullable();
             $table->timestamps();
             
         });

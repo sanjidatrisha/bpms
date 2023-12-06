@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('speciality',100)->unique();
             $table->string('status',10)->default('active');
             $table->text('description')->nullable();
+            $table->string('contact_num');
             $table->timestamps();
         });
     }

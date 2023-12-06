@@ -1,6 +1,7 @@
 @extends('admin.master')
 
 @section('content')
+<h1>Beautician Form</h1>
 
 
 <form action="{{route('beautician.store')}}" method="post">
@@ -18,7 +19,10 @@
     <label for="exampleInputPassword1">Beautician Speciality</label>
     <input type="Text" class="form-control"  placeholder="Enter speciality"name="speciality">
   </div>
-
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contact Num</label>
+    <input type="number" class="form-control"  placeholder="Enter number"name="contact_num">
+  </div>
 
   
   <button type="submit" class="btn btn-primary">Submit</button>
